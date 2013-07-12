@@ -11,7 +11,7 @@ import Keys._
 
 object JUnitTestReporting extends Plugin {
   override def settings = Seq(
-    testListeners += new JUnitTestListener("./test-reports/")
+    testListeners += new JUnitTestListener("./target/test-reports/")
   )
 }
 
